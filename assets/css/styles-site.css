@@ -3,9 +3,11 @@
 /* Personalização de Estilos
     Mazinho Web | July/09/2016 */
 
-/* MENU */
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:active, .navbar-inverse .navbar-brand:focus { color: #9d9d9d; }
-.navbar-inverse .navbar-brand:hover { color: #333; }
+/*********************************
+	MENU - INICIO
+*********************************/
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:active, .navbar-inverse .navbar-brand:focus { color: #333; }
+.navbar-inverse .navbar-brand:hover { color: #333; text-shadow: 0 1px 2px rgba(0, 0, 0, .2); }
 
 .navbar-linhaProfissional { margin-top: 0px; background-color: #FAFAFA; border-color: #E7E7E7; }
 
@@ -15,9 +17,9 @@
 @media screen and (max-width: 767px) {
 	.navbar-linhaProfissional { margin-top: 0px; background-color: #FAFAFA; border-color: #E7E7E7; }
 }
-.linhaProfissionalMenu .nav > li > a { color: #5A5657; }
+.linhaProfissionalMenu .nav > li > a { color: #5A5657; outline: 0 none; }
 .linhaProfissionalMenu .nav > li > a:hover, .linhaProfissionalMenu .nav > li > a:focus { color: #333; text-decoration: none; background-color: transparent; }
-.navbar-linhaProfissional .navbar-nav > .active > a, .navbar-linhaProfissional .navbar-nav > .active > a:hover, .navbar-linhaProfissional .navbar-nav > .active > a:focus { color: #FF8C00; background-color: transparent; }
+.navbar-linhaProfissional .navbar-nav > .active > a, .navbar-linhaProfissional .navbar-nav > .active > a:hover, .navbar-linhaProfissional .navbar-nav > .active > a:focus { color: #333; background-color: transparent; }
 
 @media screen and (max-width: 767px) {
 	.navbar-inverse .navbar-toggle { margin-top: 12px; background-color: #7A7A7A; border: 1px solid #7A7A7A; }
@@ -25,3 +27,74 @@
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-color: #F1F1F1; }
+
+
+/*********************************
+	HOME CARROUSEL / SLIDER - INICIO
+*********************************/
+.slide-img-01-portugues-br {
+	background: url('../images/banners/lg/mazinhoweb-banners-01.jpg') no-repeat center center; background-size: cover;
+}
+.slide-img-02-portugues-br {
+	background: url('../images/banners/lg/mazinhoweb-banners-02.jpg') no-repeat center center; background-size: cover;
+}
+.slide-img-03-portugues-br {
+	background: url('../images/banners/lg/mazinhoweb-banners-03.jpg') no-repeat center center; background-size: cover;
+}
+@media screen and (min-width: 992px) {
+	.margin-lg-top-50 { margin-top: 50px; }
+	.carousel-caption p {
+		font-size: 19px; /* 21px; */
+	}
+	.carousel-control { width: 10%;}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.margin-md-top-40 { margin-top: 40px; }
+	.slide-img-01-portugues-br {
+		background: url('../images/banners/md/mazinhoweb-banners-md-01.jpg') no-repeat center center; background-size: cover;
+	}
+	.slide-img-02-portugues-br {
+		background: url('../images/banners/md/mazinhoweb-banners-md-02.jpg') no-repeat center center; background-size: cover;
+	}
+	.slide-img-03-portugues-br {
+		background: url('../images/banners/md/mazinhoweb-banners-md-03.jpg') no-repeat center center; background-size: cover;
+	}
+	.carousel-caption h1 {
+		font-size: 30px; /* 36px; */
+	}
+	.carousel-caption p {
+		font-size: 17px; /* 21px; */
+	}
+	.carousel-control { width: 8%;}
+}
+@media screen and (max-width: 767px) {
+	.margin-xs-top-30 { margin-top: 30px; }
+	.slide-img-01-portugues-br {
+		background: url('../images/banners/xs/mazinhoweb-banners-xs-01.jpg') no-repeat center center; background-size: cover;
+	}
+	.slide-img-02-portugues-br {
+		background: url('../images/banners/xs/mazinhoweb-banners-xs-02.jpg') no-repeat center center; background-size: cover;
+	}
+	.slide-img-03-portugues-br {
+		background: url('../images/banners/xs/mazinhoweb-banners-xs-03.jpg') no-repeat center center; background-size: cover;
+	}
+	.carousel-caption h1 {
+		font-size: 22px; /* 36px; */
+	}
+	.carousel-caption p {
+		font-size: 15px; /* 21px; */
+	}
+	.carousel-control { width: 8%;}
+}
+.carousel-caption { right: 10%; left: 10%; }
+
+
+/*********************************
+	PERSONALIZACAO
+*********************************/
+.email, .email:active, .email:focus { color: #5a5a5a; }
+.email:hover { color: #333; text-shadow: 0 1px 2px rgba(0, 0, 0, .1); }
+.text-left { text-align: left; }
+
+footer a { color: #333; }
+a, a:hover, a:focus { outline: 0 none; }
